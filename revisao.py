@@ -44,3 +44,23 @@ def imprime(velocidade, tempo, distancia, litros):
    print('Litros: ', litros)                     
                            
                            
+#3
+# Crie um arquivo .py com duas funções
+# - Função para ler um string (recebe como parâmetro uma mensagem e retorna o que o usuário digitou)
+# - Função para ler um número float (recebe como parâmetro uma mensagem e retorna o que o usuário digitou)
+
+#em um arquivo defina
+def ler_string(mensagem):
+   return input(mensagem) 
+def ler_float(mensagem):
+   return float(input(mensagem))
+
+# em outro arquivo                           
+import leitura as lt
+text = lt.ler_string():
+print(text)
+number = lt.flaot():
+print(number)                           
+                        
+                      
+ 
