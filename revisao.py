@@ -117,6 +117,47 @@ re.findall('d{5}-\d{3}',text)
 re.findall('https?://[A-Za-z0-9./]+', text)
 
 
+#Crie uma classe chamada aluno com os seguintes atributos:
+#- Nome
+#- Nota 1
+#- Nota 2
+#- Crie um construtor para a classe (__init__)
+class Aluno: 
+  def _init_(self,nome,nota1,nota2,nota3,media):
+    self.nome = nome
+    self.nota1 = nota1
+    self.nota2 = nota2
+    self.media - 0.0
+
+#Crie as seguintes funções (métodos):
+#- Calcula média, retornando a média aritmética entre as notas
+
+ def media(self):
+  self.media = (self.nota1 + self.nota2 ) /2
+  return self.media
+                           
+#- Mostra dados, que somente imprime o valor de todos os atributos
+def mostra_dados(self):
+   print('Nome : ', self.nome)                         
+   print('Nota 1 : ', self.nota1)                         
+   print('Nota 2 : ', self.nota2)                                                    
+   print('Média : ', self.media) 
+                           
+#- Resultado, que verifica se o aluno está aprovado ou reprovado (se a média for maior ou igual a 6.0, o aluno está aprovado)
+def resultado(self):                           
+  if self.media => 6.0 :
+    print('Aprovado')
+  else: 
+    print ('Reprovado')
+                           
+#Crie dois objetos (aluno1 e aluno2) e teste as funções
+
+ 
+# Teste
+# aluno1 = Aluno('João', 7.0, 2.0)
+# aluno1.resultado()
+# retorna Reprovado                           
+                           
 
                            
                            
