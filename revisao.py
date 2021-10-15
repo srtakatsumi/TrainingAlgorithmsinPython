@@ -105,7 +105,19 @@ with open('alunos.txt', 'w') as arquivo:
 with open('alunos.txt', 'r') as arquivo:
   for linha in arquivo:
     print(linha)                           
-                           
+# 6                           
+#Crie expressões regulares para extrair as seguintes informações do texto abaixo (use a função findall):
+text = "Minha casa fica na Rua Fulano Torres, 1999 o CEP é 00800-666 e meu site é https://www.srtakatsumi.com"
+import re
+#- Números
+re.findall('\d', text)
+#- CEPs
+re.findall('d{5}-\d{3}',text)
+#- URLs
+re.findall('https?://[A-Za-z0-9./]+', text)
+
+
+
                            
                            
                            
