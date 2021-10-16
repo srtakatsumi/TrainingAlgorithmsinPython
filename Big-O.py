@@ -1,3 +1,4 @@
+#Big-O = O é a complexidade de um algoritmo que foi desenvolvido
 # Função 1 - O(n)
 # essa função ela tem 11 passos
 def soma1(n):
