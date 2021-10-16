@@ -151,8 +151,6 @@ def resultado(self):
     print ('Reprovado')
                            
 #Crie dois objetos (aluno1 e aluno2) e teste as funções
-
- 
 # Teste
 # aluno1 = Aluno('João', 7.0, 2.0)
 # aluno1.resultado()
