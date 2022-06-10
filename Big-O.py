@@ -32,7 +32,7 @@ def lista2():
 #  print(i)
 
 
-# Funções Big-O
+# Funções Big-O 
 
 from math import log
 import numpy as no
